@@ -7,7 +7,7 @@ tags: [Mechine Learning,Deep Learning,SVM]
 description: the introduction for Support Vector Machines (SVM).
 ---
 
-A Support Vector Machines (SVM) is usually used for classification problems. In the case of support-vector machines, a data point is viewed as a {\displaystyle p}p-dimensional vector (a list of {\displaystyle p}p numbers), and we want to know whether we can separate such points with a {\displaystyle (p-1)}(p-1)-dimensional hyperplane.
+A Support Vector Machines (SVM) is usually used for classification problems. In the case of support-vector machines, a data point is viewed as a _p_-dimensional vector (a list of _p_ numbers), and we want to know whether we can separate such points with a _(p-1)_-dimensional hyperplane.
 
 
 
