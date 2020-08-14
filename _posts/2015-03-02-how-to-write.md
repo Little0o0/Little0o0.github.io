@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
-date: 2015-3-02
+title: Support Vector Machines (SVM)
+date: 2020-08-14
 categories: blog
-tags: [标签一,标签二]
-description: 文章金句。
+tags: [Mechine Learning,Deep Learning,SVM]
+description: the introduction for Support Vector Machines (SVM)
 ---
 
-这里是博客正文。
+### Introduction
+A Support Vector Machines (SVM) is usually used for classification problems. In the case of support-vector machines, a data point is viewed as a ${\displaystyle p}p-dimensional$ vector (a list of ${\displaystyle p}p$ numbers), and we want to know whether we can separate such points with a ${\displaystyle (p-1)}(p-1)$-dimensional hyperplane.
 
 
 
