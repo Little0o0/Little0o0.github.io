@@ -16,7 +16,7 @@ However, there are many hyperplanes which can classify the data. So we choose th
 The Support Vector Machines is used to find the _maximum-margin hyperplane_. And it concludes Linear SVM and Nonlinear classification.
 
 ### Linear Classification
-We are given a training dataset of \(n)\ points:$$(x_1,y_1),\dots,(x_n,y_n)$$
+We are given a training dataset of `n` points:`(x_1,y_1),\dots,(x_n,y_n)`
 
 
 
