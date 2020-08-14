@@ -17,7 +17,7 @@ The Support Vector Machines is used to find the _maximum-margin hyperplane_. And
 
 ### Linear SVM
 We are given a training dataset of n points:
-![](http://latex.codecogs.com/gif.latex?\(x_1,y_1\),\dots,\(x_n,y_n\))
+![](http://latex.codecogs.com/gif.latex?(x_1,y_1),\\dots,(x_n,y_n))
 
 
 
