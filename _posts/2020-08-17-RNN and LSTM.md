@@ -26,11 +26,11 @@ Its advantages:
 #### Patterns
 Base on mativation before, we can construct several kinds of RNN. Some examples of important design patterns for recurrent neural networks include the following:
 - RNN that produce an output at each time step and have recurrent connections between hidden units.
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Pattern1.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_Pattern1.png)
 - RNN that produce an output at each time step and have recurrent connections only from the output at one time step to the hidden units at the next time step. It is less powerful than those in family represented by pattern1 because o has less information than h.
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Pattern2.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_Pattern2.png)
 -RNN with recurrent connections between hidden units, that read an entire sequence and then produce a single output, illustrated in figure
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Pattern3.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_Pattern3.png)
 
 #### Update Equations
 t = 1 to t = t0 , we apply the following update equations:
@@ -51,21 +51,21 @@ Computing the gradient of this loss function with respect to the parameters is a
 
 ### Teacher Forcing and Networks with Output Recurrence
 Teacher forcing is a procedure that emerges from the maximum likelihood criterion, in which during training the model receives the ground truth output <span>![](http://latex.codecogs.com/gif.latex?y^{(t)})</span> as input at time t + 1.
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_teacher_forcing.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_teacher_forcing.png)
 
 ### Gradient
 Computing the gradient through a recurrent neural network is straightforward.
 ![](http://latex.codecogs.com/gif.latex?\frac{\partial L}{\partial L^{(t)}} = 1)
 In this derivation we assume that the outputs <span>![](http://latex.codecogs.com/gif.latex?o^{(t)})</span> are used as the argument to the softmax function.
 
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Gradient1.png)
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Gradient2.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_Gradient1.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_Gradient2.png)
 
 We can then iterate backwards in time to back-propagate gradients through time, from t = t0 − 1 down to t = 1, noting that <span>![](http://latex.codecogs.com/gif.latex?h^{(t)})</span> (for t < t0) has as descendents both<span>![](http://latex.codecogs.com/gif.latex?h^{(t+1)})</span> and <span>![](http://latex.codecogs.com/gif.latex?o^{(t)})</span>. Its gradient is thus given by
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Gradient3.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_Gradient3.png)
 
 Using this notation, the gradient on the remaining parameters is given by:
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Gradient4.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_Gradient4.png)
 
 ### Encoder-Decoder Sequence-to-Sequence Architectures
 We often call the input to the RNN the “context.” We want to produce a representation of this context, C. The context C might be a vector or sequence of vectors that summarize the input sequence X.
@@ -77,7 +77,7 @@ We often call the input to the RNN the “context.” We want to produce a repre
 In a sequence-to-sequence architecture, the two RNNs are trained jointly to maximize
 the average of P(Y|X).The last state ![](http://latex.codecogs.com/gif.latex?h^{(n_x)}) of the encoder RNN is typically used as a representation C of the input sequence that is provided as input to the decoder RNN.
 
-![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_seq2seq1.png)
+![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_seq2seq1.png)
 
 Here we discuss how an RNN can be trained to map an input sequence to an output sequence which is not necessarily of the same length.
 
