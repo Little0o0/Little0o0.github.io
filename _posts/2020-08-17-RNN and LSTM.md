@@ -7,14 +7,14 @@ tags: [DL, NLP]
 description: the introduction for LSTM.
 ---
 
-<!-- We are given a training dataset of n points:<span>![](http://latex.codecogs.com/gif.latex?(x_1,y_1),\\dots,(x_n,y_n))</span>
+<!-- We are given a training dataset of n points:<span>![](http://latex.codecogs.com/gif.latex?(x_1,y_1),\dots,(x_n,y_n))</span>
  -->
 
 ## RNN
 ### Motivation
 If we had separate parameters for each value of the time index, we could not share statistical strength across different sequence lengths and across different positions in time. For example "I go to Beijing in 2010" and "In 2010, I go to Beijing". When we choose a feedforward network that processes sentences of fixed length, it would have separate parameters for each input feature, so it would need to learn all of the rules of the language separately at each position in the sentence. By comparison, RNN shares the weights across several time steps.
 
-RNN use <span>![](http://latex.codecogs.com/gif.latex?h^{(t)} = f(h^{(t-1)},x^{(t)};\\theta))</span>
+RNN use <span>![](http://latex.codecogs.com/gif.latex?h^{(t)} = f(h^{(t-1)},x^{(t)};\theta))</span>
 
 When RNN is trained to perform a task that requires predicting the future from the past, the network typically learns to use <span>![](http://latex.codecogs.com/gif.latex?h^{(t)})</span> as a kind of lossy summary of the task-relevant aspects of the past sequence of inputs up to t.This summary is in general necessarily lossy, since it maps an arbitrary length sequence to a fixed length vector.
 
@@ -37,7 +37,7 @@ t = 1 to t = t0 , we apply the following update equations:
 ![](http://latex.codecogs.com/gif.latex?a^{(t)} = b + Wh^{(t-1)} + Ux^{(t)})
 ![](http://latex.codecogs.com/gif.latex?h^{(t)} = tanh(a^{(t)}))
 ![](http://latex.codecogs.com/gif.latex?o^{(t)} = c + Vh^{(t)})
-![](http://latex.codecogs.com/gif.latex?\\bar{y}^{(t)} = softmax(o^{(t)}))
+![](http://latex.codecogs.com/gif.latex?\bar{y}^{(t)} = softmax(o^{(t)}))
 
 where the parameters are the bias vectors b and c along with the weight matrices U, V and W, respectively for input-to-hidden, hidden-to-output and hidden-tohidden connections.
 
@@ -45,7 +45,7 @@ where the parameters are the bias vectors b and c along with the weight matrices
 The total loss for a given sequence of x values paired with a sequence of y values would then be just the sum of the losses over all the time steps.
 
 take <span>![](http://latex.codecogs.com/gif.latex?L^{t}) </span> for example, which is the is the negative log-likelihood of <span>![](http://latex.codecogs.com/gif.latex?y^{t}) </span>. Thus the total Loss L is:
-![](http://latex.codecogs.com/gif.latex?L(\\{x^{(1)},\\dots,x^{(t0)}\\},\\{y^{(1)},\\dots,y^{(t0)}\\} ) = \\sum_t L^{t} = -\\sum_t log P_{model}(y^{(t)} | \\{x^{(1)},\\dots,x^{(t0)}\\} )) 
+![](http://latex.codecogs.com/gif.latex?L(\{x^{(1)},\dots,x^{(t0)}\},\{y^{(1)},\dots,y^{(t0)}\} ) = \sum_t L^{t} = -\sum_t log P_{model}(y^{(t)} | \{x^{(1)},\dots,x^{(t0)}\} )) 
 
 Computing the gradient of this loss function with respect to the parameters is an expensive operation. So we need an alternative.
 
@@ -55,7 +55,7 @@ Teacher forcing is a procedure that emerges from the maximum likelihood criterio
 
 ### Gradient
 Computing the gradient through a recurrent neural network is straightforward.
-![](http://latex.codecogs.com/gif.latex?\\frac{\\partial L}}{\\partial L^{(t)}} = 1)
+![](http://latex.codecogs.com/gif.latex?\frac{\partial L}{\partial L^{(t)}} = 1)
 In this derivation we assume that the outputs <span>![](http://latex.codecogs.com/gif.latex?o^{(t)})</span> are used as the argument to the softmax function.
 
 ![](https://github.com/Little0o0/Little0o0.github.io/blob/master/img/RNN_Gradient1.png)
