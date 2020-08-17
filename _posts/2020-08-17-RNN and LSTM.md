@@ -55,8 +55,8 @@ Teacher forcing is a procedure that emerges from the maximum likelihood criterio
 
 ### Gradient
 Computing the gradient through a recurrent neural network is straightforward.
-![](http://latex.codecogs.com/gif.latex?//frac{//partial L}}{//partial L^{(t)}} = 1)
-In this derivation we assume that the outputs <span>![](http://latex.codecogs.com/gif.latex?o^{(t)})</span> are used as the argument to the softmax function.
+![](http://latex.codecogs.com/gif.latex?//frac{//partial L}{//partial L^{(t)}} = 1 )
+In this derivation we assume that the outputs ![](http://latex.codecogs.com/gif.latex?o^{(t)}) are used as the argument to the softmax function.
 
 ![](../img/RNN_Gradient1.png)
 ![](../img/RNN_Gradient2.png)
