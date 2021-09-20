@@ -1,10 +1,10 @@
 ---
 layout: post
-title: LSTM
+title: RNN
 date: 2020-08-17
 categories: blog
 tags: [DL, NLP]
-description: the introduction for LSTM.
+description: the introduction for RNN.
 ---
 
 <!-- We are given a training dataset of n points:<span>![](http://latex.codecogs.com/gif.latex?(x_1,y_1),\dots,(x_n,y_n))</span>
@@ -80,5 +80,3 @@ the average of P(Y|X).The last state ![](http://latex.codecogs.com/gif.latex?h^{
 ![](https://raw.githubusercontent.com/Little0o0/Little0o0.github.io/master/img/RNN_seq2seq1.png)
 
 Here we discuss how an RNN can be trained to map an input sequence to an output sequence which is not necessarily of the same length.
-
-## The Long Short-Term Memory(LSTM)
