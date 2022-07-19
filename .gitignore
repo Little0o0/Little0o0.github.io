@@ -3,6 +3,7 @@ _site/
 *.DS_Store
 .idea
 *.swp
+.jekyll-cache/
 .Trashes
 _posts/2015-08-25-HEXO搭建个人博客.md
 _posts/2016-06-12-HEXO_Advanced.md

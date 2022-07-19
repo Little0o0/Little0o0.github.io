@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tackling the Objective Inconsistency Problem in Heterogeneous Federated Optimization
+title: Multi-Stage Progressive Image Restoration
 date: 2021-09-25
 description: general framework to analyze the convergence of federated heterogeneous optimization algorithms and FedNova  
 tag: Federated Learning, Paper Reading
@@ -8,7 +8,7 @@ tag: Federated Learning, Paper Reading
 
 ## Basic Information
 
-### Cite by 
+**Cite by**
 @article{wang2020tackling,
   title={Tackling the Objective Inconsistency Problem in Heterogeneous Federated Optimization},
   author={Wang, Jianyu and Liu, Qinghua and Liang, Hao and Joshi, Gauri and Poor, H Vincent},
@@ -18,16 +18,16 @@ tag: Federated Learning, Paper Reading
 }
 
 
-### Authors
+**Authors**
 Jianyu Wang, Qinghua Liu , Hao Liang, Gauri Joshi, H. Vincent Poor
 
-### Organization
+**Organization**
 Carnegie Mellon University, Princeton University
 
-### Source
+**Source**
 Advances in Neural Information Processing Systems 2020
 
-### Source Code
+**Source Code**
 https://github.com/JYWa/FedNova
 
 ## Content 
