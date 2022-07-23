@@ -1,0 +1,45 @@
+---
+layout: post
+title: Model Pruning Enables Efficient Federated Learning on Edge Devices
+date: 2022-07-22
+description: 
+
+tag: Federated Learning, Paper Reading
+---   
+
+## Basic Information
+
+**Cite by**
+@article{jiang2022model,
+  title={Model pruning enables efficient federated learning on edge devices},
+  author={Jiang, Yuang and Wang, Shiqiang and Valls, Victor and Ko, Bong Jun and Lee, Wei-Han and Leung, Kin K and Tassiulas, Leandros},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022},
+  publisher={IEEE}
+}
+
+
+**Authors**
+Jiang, Yuang and Wang, Shiqiang and Valls, Victor and Ko, Bong Jun and Lee, Wei-Han and Leung, Kin K and Tassiulas, Leandros
+
+**Source**
+
+**Source Code**
+
+## Content 
+### Motivation
+### Evaluation
+### Datasets
+### Result
+
+
+### Method
+#### Analysis Framework
+#### Convergence Analysis
+
+## Comments
+###  Pros
+### Cons
+
+### Further work
+### Comments
