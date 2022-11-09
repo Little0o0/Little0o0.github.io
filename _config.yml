@@ -1,43 +1,43 @@
 # Basic
-title: Huang Hong
-subtitle: Personal Blog
+title: Hong Huang
+subtitle: Blog
 description: Welcome
 # 头像里面的标题
-avatarTitle: Huang Hong
+avatarTitle: Hong Huang
 # 头像里面的描述
 avatarDesc: Federated Learning
-#url: "https://leopardpan.cn"
+# url: "http://leopardpan.cn"   
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
 
 # Comment
-#comment:
-#    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-#    disqus: leopard
+comment:
+    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
+    # disqus: leopard
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:
-    # weibo: 5366874726
-#    github: leopardpan
+    # weibo: 5366874726 
+    # github: leopardpan
     # zhihu: panpanleopard
     # juejin: xxx
-#    jianshu: 2ada30d8d0f7
+    # jianshu: 2ada30d8d0f7
     # twitter: 
     mail: honghuang@ufl.edu
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-#baidu:
-#    id: 8ba1c6be0953b6f9c2ba38e57f615421
+# baidu:
+#     id: 8ba1c6be0953b6f9c2ba38e57f615421  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-#ga:
-#    id: UA-84134159-3
-#    host: auto
+# ga:
+#     id: UA-84134159-3  
+#     host: auto  
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
@@ -65,10 +65,10 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: Archive, description: archive, url: '/archive'}
-    - {title: Tags, description: tags, url: '/tags'}
-    - {title: Support, description: support, url: '/support'}
-    - {title: About me, description: about, url: '/about'}
+    - {title: Archive, description: archive, url: '/archive'}   
+    - {title: Tags, description: tags, url: '/tags'}      
+    - {title: Support, description: support, url: '/support'}      
+    - {title: About me, description: about, url: '/about'}   
     
 
 # Pagination
