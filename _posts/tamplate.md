@@ -6,16 +6,7 @@ description: general framework to analyze the convergence of federated heterogen
 tag: Federated Learning
 ---   
 
-## Basic Information
-
-**Cite by**
-@article{wang2020tackling,
-  title={Tackling the Objective Inconsistency Problem in Heterogeneous Federated Optimization},
-  author={Wang, Jianyu and Liu, Qinghua and Liang, Hao and Joshi, Gauri and Poor, H Vincent},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  year={2020}
-}
+# Basic Information
 
 **Authors**
 Jianyu Wang, Qinghua Liu , Hao Liang, Gauri Joshi, H. Vincent Poor
@@ -29,29 +20,39 @@ Advances in Neural Information Processing Systems 2020
 **Source Code**
 https://github.com/JYWa/FedNova
 
-## Content 
-### Motivation
+# Content 
+## Motivation
 motivation
-![](/images/posts/FedNova/Heterogeneous.png)
+<p align = "center">
+<img src = "/images/posts/FedNova/Heterogeneous.png" width="500">
+</p>
+<p align = "center">
+Figure 1. motivation
+</p>
 
 As we know, in federated learning, a total of $$m$$ clients aim to jointly solve the following optimization problem:
 $$ \min_x [F(x) = \sum_{i=1}^m p_i F_i(x)] \tag{1}\label1$$
 where $$p_i = \frac{n_i}{n}$$, and $$F_i(x) = \frac{1}{n_i}\sum_{xi\in D_i}f_i(x;\xi)$$ 
-### Evaluation
+## Evaluation
 Metric: Training loss, Test Accuracy
-### Datasets
+## Datasets
 Logistic Regression on a Synthetic Federated Dataset and DNN trained on a Non-IID partitioned CIFAR-10 dataset.
-### Result
-![](/images/posts/FedNova/result1.png)
+## Result
+<p align = "center">
+<img src = "/images/posts/FedNova/result1.png" width="500">
+</p>
+<p align = "center">
+Figure 2. result
+</p>
 
 
-### Method
+## Method
 The authors proposed an analysis framework to understand bias due to objective Inconsistency and proposed Federated Normalized Averaging Algorithm(FedNova) to solve this problem. 
 
-#### Analysis Framework
+### Analysis Framework
 todo
 
-#### Convergence Analysis
+### Convergence Analysis
 **Assumption 1:**(L-Smoothness) 
 $$||\nabla F_i(x) - \nabla F_i(y)|| \le L||x-y||$$ 
 
@@ -69,16 +70,16 @@ $$
 $$
 TODO
 
-## Comments
-###  Pros
+# Comments
+##  Pros
 1. Solve the heterogeneity in the Number of Local Updates in Federated Learning
 2. Proposed a general framework which can guarantee the convergence to the stationary point. 
 
-### Cons
+## Cons
 (need further experiment)
 
-### Further work
+## Further work
 Extending the theoretical framework to adaptive optimization methods or gossip-based training method.
 
-### Comments
+## Comments
 (need further experiment)
