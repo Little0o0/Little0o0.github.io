@@ -3,6 +3,7 @@ layout: post
 title: Cooper Cooperative Perception for Connected Autonomous Vehicles based on 3D Point Clouds
 date: 2022-11-30
 description: The first to conduct a study on raw-data level cooperative perception for enhancing the detection ability of self-driving systems. In this work, relying on LiDAR 3D point clouds, we fuse the sensor data collected from different positions and angles of connected vehicles.
+tag: Autonomous Vehicle
 ---   
 
 # Basic Information
@@ -49,7 +50,7 @@ Since sharing all collected data is also impractical, we need to take into consi
 By exchanging LiDAR data, local environment can be reconstructed intuitively by merging point clouds into its physical positions.
 In order to reconstruct local environment by mapping point clouds into physical positions, additional information is encapsulated into the exchange package. Said package should be constituted from LiDAR sensor installation information and its GPS reading, which determines the center point position of every frame of point clouds.
 
-#### Sparse Point-cloud Object Detection (SPOD)
+### Sparse Point-cloud Object Detection (SPOD)
 <p align = "center">
 <img src = "/images/posts/Cooper/SPOD.png" width="500">
 </p>

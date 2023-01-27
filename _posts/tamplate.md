@@ -8,16 +8,16 @@ tag: Federated Learning
 
 # Basic Information
 
-**Authors**
+**Authors**:
 Jianyu Wang, Qinghua Liu , Hao Liang, Gauri Joshi, H. Vincent Poor
 
-**Organization**
+**Organization**:
 Carnegie Mellon University, Princeton University
 
-**Source**
+**Source**:
 Advances in Neural Information Processing Systems 2020
 
-**Source Code**
+**Source Code**:
 https://github.com/JYWa/FedNova
 
 # Content 
@@ -83,3 +83,5 @@ Extending the theoretical framework to adaptive optimization methods or gossip-b
 
 ## Comments
 (need further experiment)
+
+# References

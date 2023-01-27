@@ -76,7 +76,7 @@ Figure 2. Information flow diagrams of: (a) a generic modular system, and (b) an
 
 
 | Related works | Learning/training strategy | Pros/cons |
-|-------|--------|---------|
+|------------|--------------|---------------|
 |  | Direct supervised deep learning | imitates the target data. Can be trained offline. Poor generalization performance |
 |  | Deep reinforcement learning | Learning the optimum way of driving. Require online interaction. Urban driving has not been achieved yet |
 |  | Neuroevolution | No backpropagation. Requires online interaction. Real world driving has not been achieved yet. |
@@ -118,7 +118,7 @@ The core idea of a priori map-based localization techniques is matching: localiz
 There are two different map-based approaches; landmark search and matching.
 
 #### landmark search 
-Landmark search is computationally less expensive in comparison to point cloud matching. It is a robust localization technique as long as a sufficient amount of landmarks exists
+Landmark search is computationally less expensive in comparison to point cloud matching. It is a robust localization technique as long as a sufficient amount of landmarks exists. In an urban environment, poles, curbs, signs and road markers can be used as landmarks.
 
 A road marking detection method using lidar and Monte Carlo Localization (MCL). In this method, road markers and curbs were matched to a 3D map to find the location of the vehicle.
 
@@ -145,4 +145,62 @@ While state-of-the-art methods all rely on DCNNs, there currently exist a clear 
 Region proposal methods are currently leading detection benchmarks, but at the cost requiring high computation power. Meanwhile, single stage detection algorithms tend to have fast inference time and low memory cost, which is well-suited for real-time driving automation. YOLO (You Only Look Once) is a popular single stage detector the full model operating at 45 FPS and a smaller model operating at 155 FPS for a small accuracy trade-off. Another widely used algorithm, even faster than YOLO, is the Single Shot Detector (SSD).However, region proposal networks (RPN) have proven to be unmatched in terms of object recognition and localization accuracy, and computational cost has improved greatly in recent years, which can replace single stage detection networks for ADS applications in the near future.
 
 ##### Omnidirectional and Event Camera-based Perception
+360 degree vision, or at least panoramic vision, is necessary for higher levels of automation. Alternatively, omnidirectional cameras can be used, or a smaller array of cameras with very wide angle fisheye lenses.
+
+These are however difficult to intrinsically calibrate; the spherical images are highly distorted and the camera model used must account for mirror reflections or fisheye lens distortions, depending on the camera model producing the panoramic images. The accuracy of the model and calibration dictates the quality of undistorted images produced, on which the aforementioned 2D vision algorithms are used.
+
+Event cameras are a fairly new modality which output asynchronous events usually caused by movement in the observed scene.
+
+##### Poor illumination and changing appearance
+TODO
+
+#### Semantic segmentation
+Beyond image classification and object detection, computer vision research has also tackled the task of image segmentation. This consists of classifying each pixel of an image with a class label. This task is of particular importance to driving automation as some objects of interest are poorly defined by bounding boxes, in particular roads, traffic lines, sidewalks and buildings. A segmented scene in an urban area can be seen in Figure 3.
+
+<p align = "center">
+<img src = "/images/posts/SurveyofAuto/segExample.png">
+</p>
+<p align = "left">
+Figure 3. An urban scene near Nagoya University, with camera and lidar data collected by our experimental vehicle and object detection outputs from state-of-the-art perception algorithms. (a) A front facing camera's view, with bounding box results from YOLOv3 and (b) instance segmentation results from MaskRCNN. (c) Semantic segmentation masks produced by DeepLabv3. (d) The 3D Lidar data with object detection results from SECOND. Amongst the four, only the 3D perception algorithm outputs range to detected objects.
+</p>
+
+Unlike Mask-RCNNâ€™s architecture which is more akin to those used for object detection through its use of region proposal networks, segmentation networks usually employ a combination of convolutions for feature extraction. Those are followed by deconvolutions, also called transposed convolutions, to obtain pixel resolution labels.
+
+
+1) 3D object detection
+However, cameras have limitations that are critical to ADS. Aside from illumination which was previously discussed, camera-based object detection occurs in the projected image space and therefore the scale of the scene is unknown. 
+
+A relatively new sensing modality, the 3D lidar, offers an alternative for 3D perception. The 3D data collected inherently solves the scale problem, and since they have their own emission source, they are far less dependable on lighting condition, and less susceptible to intemperate weather. The sensing modality collects sparse 3D points representing the surfaces of the scene, as shown in Figure 4.
+
+<p align = "center">
+<img src = "/images/posts/SurveyofAuto/LiDAR_Image.png">
+</p>
+<p align = "center">
+Figure 4. Outline of a traditional method for object detection from 3D pointcloud data. Various filtering and data reduction methods are used first, followed by clustering. The resulting clusters are shown by the different colored points in the 3D lidar data of pedestrians collected by our data collection platform.
+</p>
+
+Traditional methods often use euclidean clustering or region-growing methods for grouping points into objects. This approach has been made much more robust through various filtering techniques, such as ground filtering  and map-based filtering.
+
+Machine learning has also recently taken over 3D detection methods. The first convincing results for point cloud-only 3D bounding box estimation were produced by VoxelNet. VoxelNet learned an encoding from raw point cloud data to voxel grid. Their voxel feature encoder (VFE) uses a fully connected neural network to convert the variable number of points in each occupied voxel to a feature vector of fixed size. SECOND by exploiting the natural sparsity of lidar data.
+
+
+<p align = "center">
+<img src = "/images/posts/SurveyofAuto/APtable.png" width="400">
+</p>
+<p align = "center">
+Table 3. Average Precision (AP) in % on the KITTI 3D object detection test set car class, ordered based on moderate category accuracy. These algorithms only use pointcloud data.
+</p>
+
+Another option for lidar-based perception is 2D projection of point cloud data. There are two main representations of point cloud data in 2D, the first being a so-called depth image shown in Figure 5 left, largely inspired by camera-based methods that perform 3D object detection through depth estimation and methods that operate on RGB-D data.
+
+The other 2D projection that has seen increasing popularity, in part due to the new KITTI benchmark, is projection to bird's eye view (BV) image. This is a top-view image of point clouds as shown in Figure 5 right. Bird's eye view images discretize space purely in 2D, so lidar points which vary in height alone occlude each other.
+
+Table 3 shows the leading methods on the KITTI benchmark, alongside detection times. 2D methods are far less computationally expensive, but recent methods that take point sparsity into account are real-time viable and rapidly approaching the accuracy necessary for integration in ADSs.
+<p align = "center">
+<img src = "/images/posts/SurveyofAuto/depth_image.png" width="400" align="left"/>
+<img src = "/images/posts/SurveyofAuto/Bird_eye.png" width="400"/>
+</p>
+<p align = "left">
+Figure 5. (Left). A depth image produced from synthetic lidar data, generated in the CARLA simulator. (Right). Bird’s eye view perspective of 3D lidar data, a sample from the KITTI dataset.
+</p>
 
