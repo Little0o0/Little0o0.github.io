@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bridging the Domain Gap for Multi-Agent Perception
-date: 2023-01-27
+date: 2023-01-26
 description: Existing multi-agent perception algorithms assume all agents have identical neural networks, which might not be practical in the real world. The transmitted features can have a large domain gap when the models differ, leading to a dramatic performance drop in multi-agent perception.
 tag: Autonomous Vehicle
 ---   

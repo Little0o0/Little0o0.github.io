@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Model-Agnostic Multi-Agent Perception Framework
-date: 2023-01-27
+date: 2023-01-26
 description: Existing multi-agent perception systems assume that every agent utilizes the same model with identical parameters and architecture. The performance can be degraded with different perception models due to the mismatch in their confidence scores. In this work, we propose a model-agnostic multi-agent perception framework to reduce the negative effect caused by the model discrepancies without sharing the model information.
 tag: Autonomous Vehicle
 ---   
