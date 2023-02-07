@@ -20,6 +20,9 @@ Advances in Neural Information Processing Systems 2020
 **Source Code**:
 https://github.com/JYWa/FedNova
 
+**Cite**:
+Wang, Jianyu, et al. "Tackling the objective inconsistency problem in heterogeneous federated optimization." Advances in neural information processing systems 33 (2020): 7611-7623.
+
 # Content 
 ## Motivation
 motivation
