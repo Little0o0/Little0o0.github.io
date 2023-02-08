@@ -45,14 +45,14 @@ OPV2V, V2X-Sim, CoPerception-UAVs and DAIR-V2X.
 
 ## Result
 <p align = "center">
-<img src = "/images/posts/where2comm/result1.png" width="500">
+<img src = "/images/posts/where2comm/result1.png" width="800">
 </p>
 <p align = "left">
 Figure 2. Where2comm achieves consistently superior performance-bandwidth trade-off on all the three collaborative perception datasets, e.g, Where2comm achieves 5,000 times less communication volume and still outperforms When2com on CoPerception-UAVs dataset. The entire red curve comes from a single Where2comm model evaluated at varying bandwidths.
 </p>
 
 <p align = "center">
-<img src = "/images/posts/where2comm/result2.png" width="500">
+<img src = "/images/posts/where2comm/result2.png" width="800">
 </p>
 <p align = "left">
 Figure 3. Robustness to localization error. Gaussian noise with zero mean and varying std is introduced. Where2comm consistently outperforms previous SOTAs and No Collaboration.
@@ -62,7 +62,7 @@ Figure 3. Robustness to localization error. Gaussian noise with zero mean and va
 See the overview in Fig. 4. Where2comm includes an observation encoder, a spatial confidence generator, the spatial confidence-aware communication module, the spatial confidence-aware message fusion module and a detection decoder.
 
 <p align = "center">
-<img src = "/images/posts/where2comm/framework.png" width="500">
+<img src = "/images/posts/where2comm/framework.png" width="800">
 </p>
 <p align = "left">
 Figure 4. System overview. In Where2comm, spatial confidence generator enables the awareness of spatial heterogeneous of perceptual information, spatial confidence-aware communication enables efficient communication, and spatial confidence-aware message fusion boosts the performance.
