@@ -3,7 +3,7 @@ layout: post
 title: Efficient split-mix federated learning for on-demand and in-situ customization
 date: 2023-03-10
 description: In many practical FL scenarios, participants have heterogeneous resources due to disparities in hardware and inference dynamics that require quickly loading models of different sizes and levels of robustness. In this paper, we propose a novel Split-Mix FL strategy for heterogeneous participants that, once training is done, provides in-situ customization of model sizes and robustness. Specifically, we achieve customization by learning a set of base sub-networks of different sizes and robustness levels, which are later aggregated on-demand according to inference requirements.
-tag: Autonomous Vehicle
+tag: Federated Learning
 ---   
 
 # Basic Information
