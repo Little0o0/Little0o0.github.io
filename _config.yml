@@ -5,7 +5,7 @@ description: Welcome
 # 头像里面的标题
 avatarTitle: Hong Huang
 # 头像里面的描述
-avatarDesc: Federated Learning
+avatarDesc: Student
 # url: "http://leopardpan.cn"   
 
 # 博客是否自动生成目录，false为不生成
@@ -25,7 +25,7 @@ social:
     # juejin: xxx
     # jianshu: 2ada30d8d0f7
     # twitter: 
-    mail: honghuang@ufl.edu
+    mail: honghuang2000@outlook.com
 
 
 # 百度统计 
@@ -61,13 +61,13 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: Index
+    title: Blogs
 
 # Navigation buttons in the front page.s
 nav:
     - {title: Archive, description: archive, url: '/archive'}   
     - {title: Tags, description: tags, url: '/tags'}      
-    - {title: Support, description: support, url: '/support'}      
+    # - {title: Support, description: support, url: '/support'}      
     - {title: About me, description: about, url: '/about'}   
     
 

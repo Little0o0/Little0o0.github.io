@@ -2,8 +2,8 @@
 layout: post
 title: Tackling the Objective Inconsistency Problem in Heterogeneous Federated Optimization
 date: 2021-09-25
-description: general framework to analyze the convergence of federated heterogeneous optimization algorithms and FedNova  
-tag: Federated Learning, Paper Reading
+description: Propoased FedNova, a general framework to analyze the convergence of federated heterogeneous optimization algorithms.
+tag: Federated Learning
 ---   
 
 ## Basic Information
