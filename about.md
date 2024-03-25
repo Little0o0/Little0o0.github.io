@@ -15,8 +15,9 @@ My resume is avaliable at [here](/My_Resume.pdf)
 Federated Learning, Model Compression, Large Language Model, Efficient On-device ML, Deep Learning
 
 <h2> Publications </h2> 
-- **Hong Huang**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning." In 2023 IEEE 43rd International Conference on Distributed Computing Systems (ICDCS), pp. 190-201. IEEE, 2023.
-- **Hong Huang**, Jian Cao, Qing Qi, and Boxuan Zhao. "DOCEM: A Domain-Embedding-Based Open-Source Community Event Monitoring Model." In CCF Conference on Computer Supported Cooperative Work and Social Computing, pp. 403-417. Springer, Singapore, 2022.
+- **Hong Huang**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning." IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
+- **Hong Huang**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning." IEEE 43rd International Conference on Distributed Computing Systems (ICDCS), 2023.
+- Liu, Tianqi, **Hong Huang**, Zhijun Lei, Ruogu Fang, and Dapeng Wu. "Texture and motion aware perception in-loop filter for AV1." Journal of Visual Communication and Image Representation, 2024.
 
 
 
