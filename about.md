@@ -12,9 +12,10 @@ I am currently a Ph.D. student supervised by Prof. [Dapeng Oliver Wu](http://www
 My resume is avaliable at [here](/My_Resume.pdf)
 
 <h2> Research Interests </h2> 
-Federated Learning, Model Compression, Efficient On-device ML, Deep Learning
+Model Compression, Efficient On-device ML, Federated Learning, Deep Learning
 
 <h2> Publications </h2> 
+- **Hong Huang**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis." The Annual Meeting of the Association for Computational Linguistics (ACL), 2025.
 - **Hong Huang**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning." IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
 - **Hong Huang**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning." IEEE 43rd International Conference on Distributed Computing Systems (ICDCS), 2023.
 
