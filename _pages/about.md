@@ -25,7 +25,7 @@ Research Interest
 My research focuses on model acceleration/compression, __with the overarching goal of AI democratization,making powerful AI accessible to everyone.__
 
 - Model Acceleration & Compression
-  - Distributed Training & Inference: [\[NeurIPS 2025\]](https://arxiv.org/abs/2501.19122), [\[CVPR 2024\]](https://arxiv.org/abs/2403.14737), [\[ICDCS 2023\]](https://arxiv.org/pdf/2212.01977), [\[Preprint\]](https://arxiv.org/abs/2504.08791)
+  - Distributed Training & Inference: [\[NeurIPS 2025\]](https://arxiv.org/abs/2501.19122), [\[CVPR 2024\]](https://arxiv.org/abs/2403.14737), [\[ICDCS 2023\]](https://arxiv.org/pdf/2212.01977) 
   - On-Device Learning & Inference: [\[ACL 2025\]](https://arxiv.org/abs/2505.14742), [\[Preprint\]](https://arxiv.org/pdf/2509.23809) 
  
 Publications
