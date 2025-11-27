@@ -9,15 +9,16 @@ redirect_from:
 
 I am currently a Ph.D. candidate supervised by Prof. [Dapeng Oliver Wu](http://www.wu.ece.ufl.edu/) in City University of Hong Kong. I obtained my Master degree in Electrical and Computer Engineering from the University of Florida, advised by Prof. [Dapeng Oliver Wu](http://www.wu.ece.ufl.edu/) and Prof. [Ruogu Fang](https://lab-smile.github.io/). I obtained my Bachelor Degree in Computer Science from Shanghai Jiao Tong University. 
 
-> I lead the [FedPruning Research Group](https://github.com/FedPruning), which focuses on cutting-edge research in __edge computing__ and __model compression__. The group is dedicated to guiding __beginners__ in launching their research careers and currently comprises 15+ junior Ph.D. and MS. students. We are looking for __self-motivated students__ to join us (minimal requirements: familar with Deep learning and PyTorch.)
+> I lead the [FedPruning Research Group](https://fedpruning.github.io/), which focuses on cutting-edge research in __edge computing__ and __model compression__. The group is dedicated to guiding __beginners__ in launching their research careers and currently comprises 15+ junior Ph.D. and MS. students. We are looking for __self-motivated students__ to join us (minimal requirements: familar with Deep learning and PyTorch.)
 
 News
 ======
-- 2025-11: I am selected as a DAAD AINeT fellow for the Postdoc-NeT-AI 11/2025. 
-- 2025-10: I receive the NeurIPS 2025 Travel Award.
-- 2025-09: Our paper "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling" is accepted by NeurIPS 2025.
-- 2025-08: I receive the Research Tuition Scholarship from CityU.
-- 2025-05: Our paper "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis" is accepted by ACL 2025.
+- 2025-11: I was selected as a DAAD AINeT fellow for the Postdoc-NeT-AI 11/2025. 
+- 2025-10: Our paper "Tequila: Trapping-free Ternary Quantization for Large Language Models." was published on Arxiv and submitted to ICLR 2026 (score: 8 6 6 6). 
+- 2025-10: I received the NeurIPS 2025 Travel Award.
+- 2025-09: Our paper "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling" was accepted by NeurIPS 2025.
+- 2025-08: I received the Research Tuition Scholarship from CityU.
+- 2025-05: Our paper "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis" was accepted by ACL 2025.
 
 Research Interest
 =====
