@@ -7,9 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. candidate supervised by Prof. [Dapeng Oliver Wu](http://www.wu.ece.ufl.edu/) in City University of Hong Kong. I obtained my Master degree in Electrical and Computer Engineering from the University of Florida, advised by Prof. [Dapeng Oliver Wu](http://www.wu.ece.ufl.edu/) and Prof. [Ruogu Fang](https://lab-smile.github.io/). I obtained my Bachelor Degree in Computer Science from Shanghai Jiao Tong University. 
+I am currently a Ph.D. candidate supervised by Prof. [Dapeng Oliver Wu](http://www.wu.ece.ufl.edu/) in City University of Hong Kong (CityU). I obtained M.S. degree from the University of Florida (UF), advised by Prof. [Dapeng Oliver Wu](http://www.wu.ece.ufl.edu/) and Prof. [Ruogu Fang](https://lab-smile.github.io/). I obtained B.E. degree from Shanghai Jiao Tong University (SJTU). 
 
-> I lead the [FedPruning Research Group](https://fedpruning.github.io/), which focuses on cutting-edge research in __edge computing__ and __model compression__. The group is dedicated to guiding __beginners__ in launching their research careers and currently comprises 15+ junior Ph.D. and MS. students. We are looking for __self-motivated students__ to join us (minimal requirements: familar with Deep learning and PyTorch.)
+
+Research Interest
+=====
+My research focuses on model acceleration/compression, with the overarching goal of __AI democratization__,making powerful AI accessible to everyone.
+
+- Model Acceleration & Compression
+  - Distributed Training & Inference: [\[NeurIPS 2025\]](https://arxiv.org/abs/2501.19122), [\[CVPR 2024\]](https://arxiv.org/abs/2403.14737), [\[ICDCS 2023\]](https://arxiv.org/pdf/2212.01977) 
+  - On-Device Learning & Inference: [\[ACL 2025\]](https://arxiv.org/abs/2505.14742), [\[Preprint\]](https://arxiv.org/pdf/2509.23809) 
+ 
+> I lead the [FedPruning Research Group](https://fedpruning.github.io/), which focuses on cutting-edge research in __edge computing__ and __model compression__. The group is dedicated to guiding __beginners__ in launching their research careers and currently comprises 15+ junior Ph.D. and M.S. students. We are looking for self-motivated students to join us (minimal requirements: familar with Deep learning and PyTorch.)
 
 News
 ======
@@ -20,15 +29,8 @@ News
 - 2025-08: I received the Research Tuition Scholarship from CityU.
 - 2025-05: Our paper "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis" was accepted by ACL 2025.
 
-Research Interest
-=====
-My research focuses on model acceleration/compression, __with the overarching goal of AI democratization,making powerful AI accessible to everyone.__
 
-- Model Acceleration & Compression
-  - Distributed Training & Inference: [\[NeurIPS 2025\]](https://arxiv.org/abs/2501.19122), [\[CVPR 2024\]](https://arxiv.org/abs/2403.14737), [\[ICDCS 2023\]](https://arxiv.org/pdf/2212.01977) 
-  - On-Device Learning & Inference: [\[ACL 2025\]](https://arxiv.org/abs/2505.14742), [\[Preprint\]](https://arxiv.org/pdf/2509.23809) 
- 
-Publications
+Selected Publications
 ======
 - **Hong Huang**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu "Tequila: Trapping-free Ternary Quantization for Large Language Models." arXiv preprint arXiv:2509.23809 (2025).
 - **Hong Huang**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis." The Annual Meeting of the Association for Computational Linguistics (ACL), 2025.
