@@ -32,8 +32,8 @@ News
 
 Selected Publications
 ======
-- **Hong Huang**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu "Tequila: Trapping-free Ternary Quantization for Large Language Models." arXiv preprint arXiv:2509.23809 (2025).
-- **Hong Huang**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis." The Annual Meeting of the Association for Computational Linguistics (ACL), 2025.
-- **Hong Huang**, Hai Yang, Yuan Chen, Jiaxun Ye, Dapeng Wu. "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling." The Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.
-- **Hong Huang**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning." IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
-- **Hong Huang**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning." IEEE 43rd International Conference on Distributed Computing Systems (ICDCS), 2023.
+- **Hong Huang**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu "Tequila: Trapping-free Ternary Quantization for Large Language Models." submitted to ICLR 2026 (score: 8 6 6 6).
+- **Hong Huang**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis." ACL 2025.
+- **Hong Huang**, Hai Yang, Yuan Chen, Jiaxun Ye, Dapeng Wu. "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling." NeurIPS 2025.
+- **Hong Huang**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning." CVPR 2024.
+- **Hong Huang**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning." ICDCS 2023.
