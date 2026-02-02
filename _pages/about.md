@@ -14,7 +14,8 @@ Research Interest
 My research focuses on Efficient AI, with the overarching goal of __AI democratization__,making powerful AI accessible to everyone.
 
 - Efficient AI
-  - Efficient Mobile/Edge LLM (_Bar Menu_): [\[Quaff ACL'25\]](https://arxiv.org/abs/2505.14742), [\[Tequila ICLR'26\]](https://arxiv.org/pdf/2509.23809), [\[Sherry Preprint\]](https://arxiv.org/pdf/2601.07892), 
+  - Efficient Mobile/Edge LLM (_Bar Menu_): [\[Quaff ACL'25\]](https://arxiv.org/abs/2505.14742), [\[Tequila ICLR'26\]](https://arxiv.org/pdf/2509.23809), \\ 
+  [\[Sherry Preprint\]](https://arxiv.org/pdf/2601.07892), 
   - Efficient Federated Learning (_Fed Series_):  [\[FedRTS NeurIPS'25\]](https://arxiv.org/abs/2501.19122), [\[FedMef CVPR'24\]](https://arxiv.org/abs/2403.14737), [\[FedTiny ICDCS'23\]](https://arxiv.org/pdf/2212.01977) 
   - Efficient ML System (_.cpp Series_): [\[Prima.cpp ICLR'26\]](https://arxiv.org/abs/2504.08791)
  
