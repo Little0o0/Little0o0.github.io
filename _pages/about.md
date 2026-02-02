@@ -32,10 +32,10 @@ News
 
 Selected Publications
 ======
-- **Hong Huang**, Decheng Wu, Qiangqiang Hu, Guanghua Yu, Jinhai Yang, Jianchen Zhu, Xue Liu, and Dapeng Wu. "Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification." arXiv preprint arXiv:2601.07892 (2026).
-- **Hong Huang**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu "Tequila: Trapping-free Ternary Quantization for Large Language Models." ICLR 2026.
-- Zonghang Li, Tao Li, Wenjiao Feng, Rongxing Xiao, Jianshu She, **Hong Huang**, Mohsen Guizani, Hongfang Yu, Qirong Ho, Wei Xiang, Steve Liu "Prima.cpp: Fast 30-70B LLM Inference on Heterogeneous and Low-Resource Home Clusters." ICLR 2026.
-- **Hong Huang**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis." ACL 2025.
-- **Hong Huang**, Hai Yang, Yuan Chen, Jiaxun Ye, Dapeng Wu. "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling." NeurIPS 2025.
-- **Hong Huang**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning." CVPR 2024.
-- **Hong Huang**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning." ICDCS 2023.
+- **\[Preprint\]** **Hong Huang**, Decheng Wu, Qiangqiang Hu, Guanghua Yu, Jinhai Yang, Jianchen Zhu, Xue Liu, and Dapeng Wu. "Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification." arXiv preprint arXiv:2601.07892 (2026).
+-  **\[ICLR '26\]** **Hong Huang**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu "Tequila: Trapping-free Ternary Quantization for Large Language Models."
+- **\[ICLR '26\]** Zonghang Li, Tao Li, Wenjiao Feng, Rongxing Xiao, Jianshu She, **Hong Huang**, Mohsen Guizani, Hongfang Yu, Qirong Ho, Wei Xiang, Steve Liu "Prima.cpp: Fast 30-70B LLM Inference on Heterogeneous and Low-Resource Home Clusters."
+- **\[ACL '25\]** **Hong Huang**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis."
+- **\[NeurIPS '25\]** **Hong Huang**, Hai Yang, Yuan Chen, Jiaxun Ye, Dapeng Wu. "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling."
+- **\[CVPR '24\]** **Hong Huang**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning."
+- **\[ICDCS '23\]** **Hong Huang**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning."
