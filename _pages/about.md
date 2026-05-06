@@ -14,9 +14,9 @@ Research Interest
 My research focuses on __Efficient & Reliable AI__, with the overarching goal of __AI Democratization__, _making powerful and reliable AI accessible to everyone._
 
 - __Efficient LFM__:
-  - **Efficient LLM (_Bar Menu_)**:[\[Quaff ACL'25\]](https://arxiv.org/abs/2505.14742), [\[Tequila ICLR'26\]](https://arxiv.org/pdf/2509.23809), [\[Sherry ACL'26\]](https://arxiv.org/pdf/2601.07892) 
+  - **Efficient LFMs (_Bar Menu_)**:[\[Sherry ACL'26\]](https://arxiv.org/pdf/2601.07892), [\[Tequila ICLR'26\]](https://arxiv.org/pdf/2509.23809), [\[Quaff ACL'25\]](https://arxiv.org/abs/2505.14742)
   - **Efficient FL (_Fed Series_)**: [\[FedFit ICML'26\]](https://openreview.net/forum?id=NhW0m7BLPG)
-  [\[AquaFed TCC'26\]](https://www.computer.org/csdl/journal/cc/5555/01/11474964/2fuLKT640aQ), [\[FedRTS NeurIPS'25\]](https://arxiv.org/abs/2501.19122), <br/>
+  [\[AquaFed TCC'26\]](https://www.computer.org/csdl/journal/cc/5555/01/11474964/2fuLKT640aQ), [\[FedRTS NeurIPS'25\]](https://arxiv.org/abs/2501.19122),
   [\[FedMef CVPR'24\]](https://arxiv.org/abs/2403.14737), [\[FedTiny ICDCS'23\]](https://arxiv.org/pdf/2212.01977) 
   - **Efficient ML System (_.cpp Series_)**: [\[Prima.cpp ICLR'26\]](https://arxiv.org/abs/2504.08791)
  
@@ -39,13 +39,11 @@ News
 
 Selected Publications
 ======
-(* Equal Contribution, ^ Corresponding Author)
+(*Equal Contribution, ^Corresponding Author)
 - **\[ACL '26\]** **_Hong Huang_**, Decheng Wu, Qiangqiang Hu, Guanghua Yu, Jinhai Yang, Jianchen Zhu, Xue Liu, and Dapeng Wu. "Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification."
 - **\[ICML '26\]** Meng Bi, **_Hong Huang^_**, Jinlong Song, Charles Wang, Chengming Hu, Xi Chen, Ting Yu, Xue Liu. "Fedfit: Federated dynamic pruning via Fisher Information scoring."
-- **\[ICML '26\]** Yun wang, Junbin Xiao, Han Lyu, Yifan Wang, Jing Zuo, Zhanjie Zhang, **_Hong Huang_**, Dapeng Wu, Angela Yao. "Keep It in Mind: User Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams."
 - **\[TCC '26\]** Juntao Hu*, **_Hong Huang*_**, Kuan Liu, Huimin Lu, Bingyi Liu, Dapeng Wu. "AquaFed: Ascending Quantized Federated Learning on Heterogeneous Devices." IEEE Transactions on Cloud Computing. 
 -  **\[ICLR '26\]** **_Hong Huang_**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu. "Tequila: Trapping-free ternary quantization for large language models.” 
-- **\[ICLR '26\]** Zonghang Li, Tao Li, Wenjiao Feng, Rongxing Xiao, Jianshu She, **_Hong Huang_**, Mohsen Guizani, Hongfang Yu, Qirong Ho, Wei Xiang, Steve Liu "Prima.cpp: Fast 30-70B LLM Inference on Heterogeneous and Low-Resource Home Clusters."
 - **\[NeurIPS '25\]** **_Hong Huang_**, Hai Yang, Yuan Chen, Jiaxun Ye, Dapeng Wu. "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling."
 - **\[ACL '25\]** **_Hong Huang_**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis."
 - **\[CVPR '24\]** **_Hong Huang_**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning."
