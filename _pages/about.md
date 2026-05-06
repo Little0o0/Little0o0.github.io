@@ -11,20 +11,26 @@ I am currently a Ph.D. candidate supervised by Prof. [Dapeng Oliver Wu](http://w
 
 Research Interest
 =====
-My research focuses on __Efficient AI__, with the overarching goal of __AI democratization__, _making powerful AI accessible to everyone._
+My research focuses on __Efficient & Reliable AI__, with the overarching goal of __AI Democratization__, _making powerful and reliable AI accessible to everyone._
 
-- __Efficient AI__:
-  - **Efficient LLM (_Bar Menu_)**:[\[Quaff ACL'25\]](https://arxiv.org/abs/2505.14742), [\[Tequila ICLR'26\]](https://arxiv.org/pdf/2509.23809), [\[Sherry Preprint\]](https://arxiv.org/pdf/2601.07892) 
-  - **Efficient Federated Learning (_Fed- Series_)**:  [\[FedRTS NeurIPS'25\]](https://arxiv.org/abs/2501.19122), <br/>
-  [\[FedMef CVPR'24\]](https://arxiv.org/abs/2403.14737),[\[FedTiny ICDCS'23\]](https://arxiv.org/pdf/2212.01977) 
+- __Efficient LFM__:
+  - **Efficient LLM (_Bar Menu_)**:[\[Quaff ACL'25\]](https://arxiv.org/abs/2505.14742), [\[Tequila ICLR'26\]](https://arxiv.org/pdf/2509.23809), [\[Sherry ACL'26\]](https://arxiv.org/pdf/2601.07892) 
+  - **Efficient FL (_Fed Series_)**: [\[FedFit ICML'26\]](https://openreview.net/forum?id=NhW0m7BLPG)
+  [\[AquaFed TCC'26\]](https://www.computer.org/csdl/journal/cc/5555/01/11474964/2fuLKT640aQ), [\[FedRTS NeurIPS'25\]](https://arxiv.org/abs/2501.19122), <br/>
+  [\[FedMef CVPR'24\]](https://arxiv.org/abs/2403.14737), [\[FedTiny ICDCS'23\]](https://arxiv.org/pdf/2212.01977) 
   - **Efficient ML System (_.cpp Series_)**: [\[Prima.cpp ICLR'26\]](https://arxiv.org/abs/2504.08791)
  
-> I lead the [FedPruning Research Group](https://fedpruning.github.io/), which focuses on cutting-edge research in __edge computing__ and __model compression__. The group is dedicated to guiding __beginners__ in launching their research careers and currently comprises 15+ junior Ph.D. and M.S. students. We are looking for self-motivated students to join us (minimal requirements: familar with Deep learning and PyTorch.)
+- __Reliable AI__:
+  - **AI Obedience (_Instrument Series_)**: [\[Violin Preprint\]](https://arxiv.org/pdf/2603.00166)
+
+> I lead the Efficient & Reliable AI (ERA) Lab, which focuses on cutting-edge research in __efficient__ and __reliable AI__. The group currently comprises 15+ junior Ph.D. and M.S. students. We are looking for self-motivated students to join us (minimal requirements: familar with Deep learning and PyTorch.)
 
 News
 ======
+- 2026-05: Our two works, FedFit and UCS-bench, were accepted by ICML 2026.
+- 2026-04: Our work, Sherry, was accepted by ACL 2026. 
+- 2026-03: Our work, AquaFed, was accepted by IEEE TCC 2026. 
 - 2026-01: Our two works, Tequila and Prima.cpp, were accepted by ICLR 2026.
-- 2026-01: Our work, Sherry, was released on the arXiv. 
 - 2025-11: I was selected as a DAAD AINeT fellow for the Postdoc-NeT-AI 11/2025. 
 - 2025-10: I received the NeurIPS 2025 Travel Award.
 - 2025-09: Our work, FedRTS, was accepted by NeurIPS 2025.
@@ -33,10 +39,14 @@ News
 
 Selected Publications
 ======
-- **\[Preprint\]** **_Hong Huang_**, Decheng Wu, Qiangqiang Hu, Guanghua Yu, Jinhai Yang, Jianchen Zhu, Xue Liu, and Dapeng Wu. "Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification." arXiv preprint arXiv:2601.07892 (2026).
--  **\[ICLR '26\]** **_Hong Huang_**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu "Tequila: Trapping-free Ternary Quantization for Large Language Models."
+(* Equal Contribution, ^ Corresponding Author)
+- **\[ACL '26\]** **_Hong Huang_**, Decheng Wu, Qiangqiang Hu, Guanghua Yu, Jinhai Yang, Jianchen Zhu, Xue Liu, and Dapeng Wu. "Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification."
+- **\[ICML '26\]** Meng Bi, **_Hong Huang^_**, Jinlong Song, Charles Wang, Chengming Hu, Xi Chen, Ting Yu, Xue Liu. "Fedfit: Federated dynamic pruning via Fisher Information scoring."
+- **\[ICML '26\]** Yun wang, Junbin Xiao, Han Lyu, Yifan Wang, Jing Zuo, Zhanjie Zhang, **_Hong Huang_**, Dapeng Wu, Angela Yao. "Keep It in Mind: User Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams."
+- **\[TCC '26\]** Juntao Hu*, **_Hong Huang*_**, Kuan Liu, Huimin Lu, Bingyi Liu, Dapeng Wu. "AquaFed: Ascending Quantized Federated Learning on Heterogeneous Devices." IEEE Transactions on Cloud Computing. 
+-  **\[ICLR '26\]** **_Hong Huang_**, Decheng Wu, Rui Cen, Guanghua Yu, Zonghang Li, Kai Liu, Jianchen Zhu, Peng Chen, Xue Liu, Dapeng Wu. "Tequila: Trapping-free ternary quantization for large language models.” 
 - **\[ICLR '26\]** Zonghang Li, Tao Li, Wenjiao Feng, Rongxing Xiao, Jianshu She, **_Hong Huang_**, Mohsen Guizani, Hongfang Yu, Qirong Ho, Wei Xiang, Steve Liu "Prima.cpp: Fast 30-70B LLM Inference on Heterogeneous and Low-Resource Home Clusters."
-- **\[ACL '25\]** **_Hong Huang_**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis."
 - **\[NeurIPS '25\]** **_Hong Huang_**, Hai Yang, Yuan Chen, Jiaxun Ye, Dapeng Wu. "FedRTS: Federated Robust Pruning via Combinatorial Thompson Sampling."
+- **\[ACL '25\]** **_Hong Huang_**, Dapeng Wu "Quaff: Quantized Parameter-Efficient Fine-Tuning under Outlier Spatial Stability Hypothesis."
 - **\[CVPR '24\]** **_Hong Huang_**, Weiming Zhuang, Chen Chen, and Lingjuan Lyu. "FedMef: Towards Memory-efficient Federated Dynamic Pruning."
 - **\[ICDCS '23\]** **_Hong Huang_**, Lan Zhang, Chaoyue Sun, Ruogu Fang, Xiaoyong Yuan, and Dapeng Wu. "Distributed Pruning Towards Tiny Neural Networks in Federated Learning."

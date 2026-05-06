@@ -39,26 +39,9 @@ Work experience
   * Sub-skill 2.3
 * Skill 3 -->
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
   
-Service and leadership
-======
-* I lead the [FedPruning Research Group](https://github.com/FedPruning), which focuses on cutting-edge research in edge computing and model compression. The group is dedicated to guiding beginners in launching their research careers and currently comprises 15+ junior Ph.D. and MS. students. 
-
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-
