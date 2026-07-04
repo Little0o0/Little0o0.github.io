@@ -230,11 +230,7 @@ a:hover {
     border-left: 3px solid var(--color-accent);
     padding: 1.2rem 1.5rem;
     border-radius: 4px;
-}
-
-.lab-section h2 {
-    border-bottom: none;
-    padding-bottom: 0;
+    margin-bottom: 2.5rem;
 }
 
 .recruiting {
